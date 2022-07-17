@@ -629,7 +629,7 @@
                 <br />
                 <h2 class="cp-h">Drop me a message .</h2>
                 <form
-                    action="https://formsubmit.co/el/polabe"
+                    action="http://formsubmit.co/el/polabe"
                     method="POST"
                     class="form"
                 >
@@ -643,10 +643,10 @@
                     />
                     <input
                         type="email"
-                        placeholder="Email"
-                        class="form-ele"
-                        required
                         name="email"
+                        placeholder="Email Address"
+                        required
+                        class="form-ele"
                     />
                     <input
                         type="Subject"
@@ -661,7 +661,16 @@
                         placeholder="Enter your message.."
                         required
                     ></textarea>
-                    <input type="hidden" name="_captcha" value="false" />
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="New Portfolio Mail"
+                    />
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://kaivalya4.github.io/thanks.html"
+                    />
                     <button type="submit" class="form-ele form-button">
                         Send Message
                     </button>
