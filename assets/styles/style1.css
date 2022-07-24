@@ -59,6 +59,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .navbar {
